@@ -1,0 +1,164 @@
+
+.fecha {
+  margin: 65px;
+  width: 250px;
+  padding-left: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.titulo {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 75px;
+  margin-left: 65px;
+  margin-right: 65px;
+  background-color: #002f4a;
+  color:#ffff;
+}
+
+.titulotec {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-left: 65px;
+  margin-right: 65px;
+  background-color: #002f4a;
+  color:#ffff;
+}
+.tituloespecial {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 75px;
+  margin-right: 65px;
+  margin-left: 65px;
+  background-color: #002f4a;
+  color:#ffff;
+}
+
+.entrada{
+  font-family: 'Lato';
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 65px;
+  margin-right: 65px;
+  text-align: justify;
+}
+
+.entradaespecial{
+  font-family: 'Lato';
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 65px;
+  margin-right: 65px;
+  text-align: justify;
+}
+
+.texto {
+  font-family: 'Lato'
+  font-style: normal;
+  font-size:15px;
+  text-align: justify;
+  margin-left: 65px;
+  margin-right: 75px;
+}
+.textoespecial {
+  font-family: 'Lato'
+  font-style: normal;
+  font-size:15px;
+  text-align: justify;
+  margin-left: 65px;
+  margin-right: 75px;
+}
+.imagenes {
+  columns:2;
+  margin-top: 50px;
+  margin-left: 190px;
+  margin-right: 190px;
+  align-items: center;
+}
+
+.imagenes2{
+  columns:2;
+  margin-top: 30px;
+  margin-left: 500px;
+  margin-right: 400px;
+  width: 80px;
+  height: 400px;
+}
+
+.imagenestec {
+  height: 50px;
+  width: 50px;
+}
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .animacion:hover .overlay {
+    opacity: 1;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f4623a;
+  }
+  .text {
+    color: #ffff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .espacio {
+    background-color: #002f4a;
+    weight: 100px;
+    height: 80px;
+  }
+
+.espaciogeneral{
+  background-color: #fff;
+  height: 40px;
+  weight:100px;
+}
+
+#fotoq {
+  float: right;
+  height: 200px;
+  width: 290px;
+  margin: 20px;
+  margin-right: 50px;
+}
+
+.copy {
+  color: transparent;
+  background-color: transparent;
+  text-emphasis-color: transparent;
+  text-align: center;
+}
